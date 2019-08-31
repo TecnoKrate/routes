@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: rgb(185, 67, 253);
+}
+
+.menu .nav-item a {
+    color: #fff !important;
+    font-weight: 400;
+}
+.menu .nav-item.active a {
+    color: #fff !important;
+    font-weight: 600;
+}

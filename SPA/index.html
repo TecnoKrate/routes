@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SPA template</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <nav class="navbar top-bar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto menu">
+                <li class="nav-item active" id="home">
+                    <a class="nav-link" href="#home" >Home </a>
+                </li>
+                <li class="nav-item" id="about">
+                    <a class="nav-link" href="#about" >About</a>
+                </li>
+                <li class="nav-item" id="contact">
+                    <a class="nav-link" href="#contact" >Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- Content is loaded dynamically -->
+    <main class="main">  
+
+              <!-- Content loads here -->
+
+    </main>
+    <input type="text" id="currentpage" hidden="hidden" value="index">
+    <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="./lib/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
